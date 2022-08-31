@@ -8,11 +8,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/css", (req, res) => {
-res.sendFile(path.join(__dirname, "../client/index.html"));
+res.sendFile(path.join(__dirname, "../client/style.css"));
 });
 
 app.get("/js", (req, res) => {
-    res.sendFile(path.join(__dirname, "../client/index.html"));
+    res.sendFile(path.join(__dirname, "../client/client.js"));
     });
 
 const port = process.env.PORT || 4005;
