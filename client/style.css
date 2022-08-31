@@ -1,3 +1,72 @@
+.navbar {
+    background-color: #F2A057;
+    display: flex;
+  
+    max-width: 100%;
+    max-height: 100%; 
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+#homebutton {
+    display: inline;
+    list-style-type: none;
+    margin: 2mm;
+    padding: 2mm;
+    color: #401c18
+  }
+#pizzabutton {
+    display: inline;
+    list-style-type: none;
+    margin: 2mm;
+    padding: 2mm;
+    color: #401c18
+}
+
+#pastabutton {
+    display: inline;
+    list-style-type: none;
+    margin: 2mm;
+    padding: 2mm;
+    color: #401c18
+}
+#saladbutton {
+    display: inline;
+    list-style-type: none;
+    margin: 2mm;
+    padding: 2mm;
+    color: #401c18
+}
+#orderbutton {
+    display: inline;
+    list-style-type: none;
+    margin: 2mm;
+    padding: 2mm;
+    color: #401c18
+}
+#reviews {
+    display: inline;
+    list-style-type: none;
+    margin: 2mm;
+    padding: 2mm;
+    color: #401c18
+}
+
 h1{
-    color: blue;
+    color: #a62103
+};
+
+#image-vangogh-pizza{
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    
 }
